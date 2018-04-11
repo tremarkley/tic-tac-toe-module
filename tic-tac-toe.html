@@ -1,0 +1,42 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <script src="gameLogic.js"></script>
+  <script src="uiLogic.js"></script>
+</head>
+<body>
+  <div>
+    <p>Turn: <span id="turn"></span></p>
+  </div>
+  <div>
+    <table>
+      <tr>
+        <td id="0,0" class="tile"></td>
+        <td id="0,1" class="tile"></td>
+        <td id="0,2" class="tile"></td>
+      </tr>
+      <tr>
+        <td id="1,0" class="tile"></td>
+        <td id="1,1" class="tile"></td>
+        <td id="1,2" class="tile"></td>
+      </tr>
+      <tr>
+        <td id="2,0" class="tile"></td>
+        <td id="2,1" class="tile"></td>
+        <td id="2,2" class="tile"></td>
+      </tr>
+    </table>
+  </div>
+  <div id="results">
+
+  </div>
+  <script>
+      new Game();
+  </script> 
+</body>
+</html>
